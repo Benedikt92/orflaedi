@@ -6,6 +6,15 @@ class OfsiSpider(scrapy.Spider):
 
     start_urls = [
         "https://ofsi.is/collections/rafmagnshjol",
+        "https://ofsi.is/collections/rafmagnshjol?page=2",
+        "https://ofsi.is/collections/rafmagnshjol?page=3",
+        "https://ofsi.is/collections/rafmagnshjol?page=4",
+        "https://ofsi.is/collections/rafmagnshjol?page=5",
+        "https://ofsi.is/collections/rafmagnshjol?page=6",
+        "https://ofsi.is/collections/rafmagnshjol?page=7",
+        "https://ofsi.is/collections/rafmagnshjol?page=8",
+        "https://ofsi.is/collections/rafmagnshjol?page=9",
+        "https://ofsi.is/collections/rafmagnshjol?page=10",
     ]
 
     def parse(self, response):
